@@ -15,9 +15,9 @@ const Pagination = ({info, numberPage, setNumberPage  }) => {
     return(
         <nav className="d-flex justify-content-center">
             <ul className="pagination">
-                <li className="page-item" onClick={previous}><a class="page-link" href="#">Previous</a></li>
-                <li className="page-item"><a class="page-link" href="#">{numberPage}</a></li>
-                <li className="page-item" onClick={next}><a class="page-link" href="#">Next</a></li>
+                <li className="page-item" onClick={previous}><a class="page-link text-dark" href="#">Previous</a></li>
+                <li className="page-item"><a class="page-link text-dark" href="#">{numberPage}</a></li>
+                <li className="page-item" onClick={next}><a class="page-link text-dark" href="#">Next</a></li>
             </ul>
         </nav>
     );
